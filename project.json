@@ -1,0 +1,11 @@
+{
+  "name": "LambdaDownloadPutS3",
+  "description": "Download image and put S3 in lambda nodejs",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::536598375304:role/Lambda_Dynamo_Full",
+  "runtime": "nodejs4.3",
+  "environment": {
+    "env": "dev"
+  }
+}
